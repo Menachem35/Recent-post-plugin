@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.AW-text {
+	color: #BBBBBB;
+	font-size: 22px;
+}
+
+.AW-category {
+	font-weight: bold;
+	color: #bbb;
+	font-size: 26px;
+	margin-top: 5px;
+}
+
+.AW-TimestampMobile {display: none; }
+
+
+.AW-container {
+	
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row nowrap;
+  
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+}
+
+.AW-item {
+	width: 226px;
+	height: 190px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 0 10px 0;
+	display: block;
+	
+}
+
+.AW-item-1 {
+	width: 100%;
+	height: 200px;
+}
+
+.AW-postImg {
+	border-radius: 3px;
+	width: 186px;
+	height: 150px;
+}
+
+.AW-postLink {
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+#AW-Author {color: #EB1E00; }
+	
+/* --- Small devices (landscape phones, 320px and up) --- */
+@media (min-width: 320px) and (max-width: 767px) {
+	.AW-item {
+		width: 135px;
+		height: 140px;
+		padding: 10px 15px 10px 20px;
+		margin: 10px 0 10px 0;
+	}
+	
+	.AW-postImg {
+		width: 100px;
+		height: 100px;
+	} 
+	
+	.AW-text {
+		text-align: left; 
+		color: #BBBBBB;
+		font-size: 9px;
+	}
+	
+	.AW-category {
+		font-size: 9px;
+		text-align: left; 
+	}
+	
+	.AW-postLink {
+		font-size: 16px;
+	}
+	
+	.AW-TimestampMobile {
+		font-style: italic;
+		font-size: 9px;
+		color: #999;
+		display: inline;
+	}
+	.AW-Timestamp {display: none; }
+}
