@@ -59,7 +59,7 @@
  
 	 $html .="</div>\n";
 	
-	 $content .= $html;;	   
+	 $content .= $html;	   
 	 return $content;
 	
 	}
